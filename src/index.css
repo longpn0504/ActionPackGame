@@ -5,3 +5,16 @@
 body {
     background-color: #000300;
 }
+.white-text {
+    color:white;
+}
+.center-text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.big-text {
+    font-size: 36px;
+  }
