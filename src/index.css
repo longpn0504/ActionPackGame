@@ -5,9 +5,6 @@
 body {
     background-color: #000300;
 }
-.white-text {
-    color:white;
-}
 .center-text{
     display: flex;
     justify-content: center;
@@ -17,4 +14,28 @@ body {
 
 .big-text {
     font-size: 36px;
+}
+  
+.person-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 100px;
+}
+  
+.person-card img {
+    display: center;
+    margin: 30px;
+}
+ 
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
+ 
+.image-container img {
+    max-width: 200px; /* Adjust the image width as needed */
+    height: auto;
+}

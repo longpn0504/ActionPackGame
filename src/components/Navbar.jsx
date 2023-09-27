@@ -17,9 +17,9 @@ export default function Narbar()
             </h1>
             <ul className="flex">
                 <li className="p-4 cursor-pointer text-blue-500 hover:text-blue-700 transition duration-300" onClick={() => navigateTo('/')}>Home</li>
-                <li className="p-4 cursor-pointer text-blue-500 hover:text-blue-700 transition duration-300" onClick={() => navigateTo('/about')}>About</li>
                 <li className="p-4 cursor-pointer text-blue-500 hover:text-blue-700 transition duration-300" onClick={() => navigateTo('/story')}>Story</li>
                 <li className="p-4 cursor-pointer text-blue-500 hover:text-blue-700 transition duration-300" onClick={() => navigateTo('/characters')}>Characters</li>
+                <li className="p-4 cursor-pointer text-blue-500 hover:text-blue-700 transition duration-300" onClick={() => navigateTo('/about')}>About</li>
             </ul>
         </div>
     )
