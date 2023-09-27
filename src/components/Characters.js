@@ -5,7 +5,18 @@ function Characters() {
   return (
     <div className='text-white'>
       <h1>Characters</h1>
-      <p>This is the Characters page.</p>
+      <br />
+
+      <p>Potential Character List      </p>
+
+        <br />
+
+          <li>Fly Bronze </li>
+          <li>Christer</li>
+          <li>Mimia Man</li>
+          <li>Wonder Wrath</li>
+          <li>Jairan </li>
+          <li>Human Strike</li>
     </div>
   );
 }
